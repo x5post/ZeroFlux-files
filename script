@@ -1,10 +1,11 @@
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/x5post/ZeroFlux-files/refs/heads/main/Fluent"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/x5post/ZeroFlux-files/refs/heads/main/SaveManager"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/x5post/ZeroFlux-files/refs/heads/main/InterfaceManager"))()
 
 local Window = Fluent:CreateWindow({
     Title = "Fluent " .. Fluent.Version,
     SubTitle = "by dawid",
+    Logo = "rbxassetid://111623675702728",
     TabWidth = 160,
     Size = UDim2.fromOffset(580, 460),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
